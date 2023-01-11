@@ -1,0 +1,48 @@
+.header-container{
+    position:sticky;
+    top:0;
+    padding:1rem;
+    background-color:#fff;
+    z-index:9999;
+}
+.logo-wrapper{
+    display:flex;
+    width:100px;
+    height:100px;
+    cursor:default;
+    caret-color: transparent
+}
+.logo-wrapper img{
+    width:100%;
+    height:auto;
+    max-width:100%;
+    max-height:100%;
+    object-fit: contain;
+    object-position:50% 50%;
+ }
+
+ @media  screen and (max-width:500px){
+    .header-container{
+        position:fixed;
+        width:100%;
+        top:0;
+        padding:1rem;
+        background-color:#fff;
+        z-index:9999;
+    }
+
+
+ }
+
+ @media screen and (min-width:601px) and (max-width:1000px){
+    .header-container{
+        position:fixed;
+        width:100%;
+        top:0;
+        padding:1rem;
+        background-color:#fff;
+        z-index:9999;
+    }
+
+
+ }
