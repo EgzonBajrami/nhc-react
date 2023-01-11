@@ -2,7 +2,7 @@ import SubPage from "../../Components/SubPage/SubPage";
 import Oftamologia from '../../Assets/Oftamologia.webp'
 const Oftamologjia = () =>{
     const pageData = {
-        title:"Vizitat Mjeksore",
+        title:"Oftamologjia",
         firstText:"Programet shëndetësore të NHC ofrojnë një nivel të lartë të shërbimeve oftalmologjike për anëtarët e tij, nëpërmjet një rrjeti të klinikave oftalmologjike të zgjedhura, Qendrave Oftalmologjike, Klinikave Polimedike",
         secondText:" ",
         thirdText:" "
